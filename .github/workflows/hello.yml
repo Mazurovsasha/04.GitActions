@@ -1,0 +1,13 @@
+name: Running a python script hello.py
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running a python script
+        run: python3 /home/sasha/04.GitOps/repo/hello.py 
