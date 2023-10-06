@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Running a python script
-        run: python3 /home/sasha/04.GitOps/repo/hello.py 
+        run: python3 hello.py 
