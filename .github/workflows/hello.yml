@@ -9,5 +9,7 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     steps:
-      - name: Running a python script
-        run: python3 hello.py 
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Run script
+      run: python /home/sasha/04.GitOps/repo/hello.py
