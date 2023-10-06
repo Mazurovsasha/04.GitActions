@@ -12,4 +12,4 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Run script
-      run: python test_string.py
+      run: python test_string_1.py
