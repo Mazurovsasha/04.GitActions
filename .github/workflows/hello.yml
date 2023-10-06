@@ -12,4 +12,4 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Run script
-      run: python /home/sasha/04.GitOps/repo/hello.py
+      run: python hello.py
